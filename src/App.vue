@@ -111,25 +111,11 @@ export default {
   .main {
     margin: 20px;
 
-    .tab_button {
-      padding: 6px 10px;
-      border-top-left-radius: 3px;
-      border-top-right-radius: 3px;
-      border: 1px solid #ccc;
-      cursor: pointer;
-      background: #f0f0f0;
-      margin-bottom: -1px;
-      margin-right: -1px;
-    }
     .tab_button:hover {
       background: #a6dbaf;
     }
     .tab_button.active {
       background: #a6dbaf;
-    }
-    .tab {
-      border: 1px solid #ccc;
-      padding: 10px;
     }
   }
 }
